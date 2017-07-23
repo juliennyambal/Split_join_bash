@@ -7,8 +7,9 @@ To split a file, you need 2 arguments: the number of chunks and the file name.
 
 ### Usage
 
+```bash
 ./split_file.sh 5 big_bang_theory.mp4
-
+```
 or
 
 bash split_file.sh 5 big_bang_theory.mp4
