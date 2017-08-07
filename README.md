@@ -8,15 +8,15 @@ To split a file, you need 2 arguments: the number of chunks and the file name.
 ### Usage
 
 ```bash
-./split_file.sh 5 big_bang_theory.mp4
+./split_file.sh 5 big_file.ext
 ```
 or
 ```bash
-bash split_file.sh 5 big_bang_theory.mp4
+bash split_file.sh 5 big_file.ext
 ```
 You will be having 5 chunks with names starting by part_.
 
-The files will be then moved to a new folder big_bang_theory.mp4.folder
+The files will be then moved to a new folder big_file.ext.folder
 
 ## Join
 
@@ -24,11 +24,11 @@ To join the chunks, you need the folder where they are located.
 
 ### Usage
 ```bash
-./join_files.sh  big_bang_theory.mp4.folder/
+./join_files.sh  big_file.ext.folder/
 ```
 or 
 ```bash
-bash join_files.sh  big_bang_theory.mp4.folder/
+bash join_files.sh  big_file.ext.folder/
 ```
 The output file will land in the folder previously created.
 
